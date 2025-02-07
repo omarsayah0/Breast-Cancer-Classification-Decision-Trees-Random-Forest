@@ -90,7 +90,7 @@ def show_tree(model_tree, x):
              fontsize = 10 ,
              precision = 2
              )
-    plt.title("Decision Tree Visualization", fontsize=15, fontweight='bold')
+    plt.title("Breast Cancer Decision Tree Visualization", fontsize=15, fontweight='bold')
     plt.tight_layout()
     plt.show()
 
@@ -104,7 +104,7 @@ def show_forest(model_forest, x):
              fontsize = 10 ,
              precision = 2
              )
-    plt.title("Random Forest (Single Tree) Visualization", fontsize=15, fontweight='bold')
+    plt.title("Breast Cancer Random Forest (Single Tree) Visualization", fontsize=15, fontweight='bold')
     plt.tight_layout()
     plt.show()
 
@@ -133,7 +133,8 @@ def show_importances(x, model_forest):
     indices = np.argsort(importances)[::-1]
     plt.figure(figsize=(8, 6))
     sns.barplot(x = importances[indices], y= feature_names[indices])
-    plt.title("Feature Importances (Best RF)")
+    plt.title("Feature Importances for Breast Cancer")
+    plt.ylabel("Features")
     plt.show()
 
 def main():
