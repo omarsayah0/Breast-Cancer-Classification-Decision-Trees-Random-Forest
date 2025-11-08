@@ -26,9 +26,9 @@ Additionally, the project provides visualizations for the decision tree structur
 - Built an **Decision Tree and Random Forest** model using `DecisionTreeClassifier` and `RandomForestClassifier` from `scikit-learn`.  
 - Performed hyperparameter tuning with GridSearchCV to identify the optimal parameters for each model.
   
-1- For the Decision Tree, tuned parameters such as criterion, max_depth, and min_samples_split.
+    1- For the Decision Tree, tuned parameters such as criterion, max_depth, and min_samples_split.
 
-2- For the Random Forest, optimized parameters including n_estimators, max_depth, criterion, and min_samples_split.
+    2- For the Random Forest, optimized parameters including n_estimators, max_depth, criterion, and min_samples_split.
 
 ---
 
