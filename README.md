@@ -7,11 +7,6 @@ Additionally, the project provides visualizations for the decision tree structur
 
 ---
 
-## Files
-- `ordinal-logistic-regression.py` → Python script implementing the model.  
-
----
-
 ## Steps Included
 
 ### 1️⃣ Data Preprocessing
